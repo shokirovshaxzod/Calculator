@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin", "pacifico", sans-serif;
+}
+.calculatorBox {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(224, 64, 91);
+}
+.childboxs h4{
+    color: #54120bf7;
+}
+.childboxs {
+  width: 500px;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.inputboxs {
+  padding: 20px 20px;
+  margin: 17px;
+  background-color: #ba24ba;
+}
+.cal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  width: 50px;
+  height: 20px;
+  background-color: #373d3de4;
+  color: aliceblue;
+}
+.cal span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, "pacifico",
+    sans-serif, sans-serif;
+  display: inline-block;
+}
+.boxs {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boxs .btnBox {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
+    sans-serif, sans-serif;
+  width: 15px;
+  height: 20px;
+  background-color: steelblue;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.boxs :hover {
+  background-color: rgba(70, 131, 180, 0.511);
+  color: #f2fff2;
+}
